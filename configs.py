@@ -5,8 +5,8 @@ import os
 
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "23902408"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
+	API_HASH = os.environ.get("API_HASH", "6a36a4ef2f07d63aeba7b53b99c64d73"))
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6088218026:AAHZMIV21mj6eGUSVvCVgLUPgjx8-F_3stM"))
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "MADARA_UCHIHA_XXBOT"))
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001918867134"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5086525318"))
